@@ -1,9 +1,7 @@
 package com.springboot.blog.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +11,8 @@ import java.util.Set;
  * This class uses JPA annotations for ORM mapping and Lombok annotations
  * for boilerplate code generation.
  */
-@Data // Generates getters, setters, toString, equals, and hashCode methods.
+@Getter
+@Setter
 @AllArgsConstructor // Generates a constructor with all fields as parameters.
 @NoArgsConstructor // Generates a no-argument constructor.
 @Entity // Marks this class as a JPA entity.

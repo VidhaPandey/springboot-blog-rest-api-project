@@ -127,4 +127,6 @@ public class PostServiceImpl implements PostService {
         return post;
     }
 
+    public static class CategoryServiceImpl {
+    }
 }

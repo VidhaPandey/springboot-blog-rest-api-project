@@ -17,4 +17,6 @@ public class PostDto {
     @NotEmpty
     private String content;
     private Set<CommentDto> comments; // Assuming CommentDto is another DTO class for comments
+
+    private CategoryDto category; // Assuming CategoryDto is another DTO class for categories
 }
